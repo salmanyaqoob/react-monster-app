@@ -30,11 +30,7 @@ class App extends Component{
 
     return (
       <div className="App">
-        <p>
-          Hello {this.state.name}
-        </p>
-        <button onClick={() => {this.setState({name: "Salman Mohammad Yaqoob"})}}>Change Name</button>
-        <br />
+        <h1>React Monsters</h1>
         <SearchBox 
         placeholder="Search Monsters"
         handleChange={ this.handleChanges }
